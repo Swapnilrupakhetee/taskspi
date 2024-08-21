@@ -15,7 +15,7 @@ const getPosts=(req,res,next)=>{
        return  res.status(200).json(posts.slice(0, limit));
     }
         res.status(200).send(posts);
-
+//
     
 }
 //@desc    Get single note
